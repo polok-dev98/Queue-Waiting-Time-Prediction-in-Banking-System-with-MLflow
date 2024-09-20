@@ -1,0 +1,11 @@
+pandas 
+scikit-learn
+matplotlib
+shap
+lime
+plotly
+seaborn
+mlflow==2.16.0
+pyenv-win==1.2.1
+xgboost
+flask
