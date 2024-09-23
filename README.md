@@ -78,14 +78,8 @@ The database file mlflow.db is included in the repository and tracks all model r
 
 The API will be available at `http://0.0.0.0:5000/`.
 
-Send a POST request to the `/predict` endpoint to get predictions:
+Send a POST request with data to the `/predict` endpoint to get predictions.
 
-```bash
-curl -X POST http://localhost:5006/predict -H "Content-Type: application/json" -d '{
-  "data": [[5.1, 3.5, 1.4, 0.2]],  # Replace with appropriate features
-  "columns": ["queue_length", "average_service_time", "other_features"]  # Replace with feature names
-}'
-```
 
 ## Traing the Models
 - To train the ML models such as XGBoost, RandomForest, KNN etc, check the notebook `(QPro_Test_code.ipynb)`. 
